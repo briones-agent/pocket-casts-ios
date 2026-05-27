@@ -62,14 +62,14 @@ struct TopListenedCategoriesStory2023: ShareableStory {
                     .scaledToFill()
                     .minimumScaleFactor(0.5)
                     .lineLimit(1)
-                    .if(index == 0) { view in
+                    .if(index == 0, transform: { view in
                         view
                             .modifier(CategoryStoryTextGradient())
-                    }
-                    .if(index != 0) { view in
+                    })
+                    .if(index != 0, transform: { view in
                         view
                             .foregroundColor(Color(hex: "686C74"))
-                    }
+                    })
 
 
                 Text("\(listenedCategories[safe: index]?.totalPlayedTime.storyTimeDescription ?? "")")

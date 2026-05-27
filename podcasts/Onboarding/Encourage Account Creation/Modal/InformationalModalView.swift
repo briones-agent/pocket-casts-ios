@@ -40,12 +40,12 @@ struct InformationalModalView: View {
             .frame(maxHeight: cardHeight + 24.0)
             buttons
                 .padding(.top, isiPad ? 12.0 : 33.0)
-                .if(!isiPad) {
+                .if(!isiPad, transform: {
                     $0.padding(.horizontal, 24.0)
-                }
-                .if(isiPad) {
+                })
+                .if(isiPad, transform: {
                     $0.frame(maxWidth: 400)
-                }
+                })
         }
         .background(theme.primaryUi01.ignoresSafeArea())
         .onChange(of: currentIndex ?? 0) { newValue in

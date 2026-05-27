@@ -38,9 +38,9 @@ struct PlaylistEpisodePreviewRowView: View {
                 Rectangle()
                     .fill(theme.primaryUi05)
                     .frame(height: 1)
-                    .if(hideSeparator) {
+                    .if(hideSeparator, transform: {
                         $0.hidden()
-                    }
+                    })
             }
             HStack(spacing: 11.0) {
                 PlaylistEpisodeImageViewWrapper(

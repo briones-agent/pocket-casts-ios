@@ -37,6 +37,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configureFirebase()
         TraceManager.shared.setup(handler: traceHandler)
 
+        // Bootstraps the embedded Expo/React Native runtime + registers a
+        // PocketCastsLifecycleSubscriber with ExpoAppDelegateSubscriberManager
+        // so every UIApplicationDelegate event below is mirrored into the
+        // RN Lifecycle Trace screen.
+        ExpoIntegration.bootstrap()
+        _ = ExpoIntegration.application(application, didFinishLaunchingWithOptions: launchOptions)
+        ExpoIntegration.scheduleAutoPresentIfRequested()
+
         setupSecrets()
         addAnalyticsObservers()
         setupAnalytics()
@@ -136,7 +144,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
+        ExpoIntegration.applicationDidEnterBackground(application)
         handleEnterBackground()
+    }
+
+    func applicationWillResignActive(_ application: UIApplication) {
+        ExpoIntegration.applicationWillResignActive(application)
+    }
+
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        ExpoIntegration.applicationWillEnterForeground(application)
+    }
+
+    func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
+        ExpoIntegration.applicationDidReceiveMemoryWarning(application)
     }
 
     func handleEnterBackground() {
@@ -150,6 +171,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
+        ExpoIntegration.applicationDidBecomeActive(application)
         handleBecomeActive()
     }
 
@@ -199,6 +221,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
+        ExpoIntegration.applicationWillTerminate(application)
         GoogleCastManager.sharedManager.teardown()
         RefreshManager.shared.cancelAllRefreshes()
 

@@ -60,9 +60,9 @@ struct PredictiveList: View {
                         ThemedDivider()
                     }
                 }
-                .if(!FeatureFlag.searchImprovements.enabled) { content in
+                .if(!FeatureFlag.searchImprovements.enabled, transform: { content in
                     content.padding(EdgeInsets(top: 12, leading: 8, bottom: 0, trailing: 8))
-                }
+                })
                 .listRowBackground(theme.primaryUi01)
                 .alignmentGuide(.listRowSeparatorLeading) { _ in
                     return 0

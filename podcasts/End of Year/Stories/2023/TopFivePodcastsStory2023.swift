@@ -75,26 +75,26 @@ struct TopFivePodcastsStory2023: ShareableStory {
 
                 if let podcast = topPodcasts[safe: index]?.podcast {
                     PodcastCover(podcastUuid: podcast.uuid)
-                        .if(animated && index == 0) { view in
+                        .if(animated && index == 0, transform: { view in
                             view
                                 .matchedGeometryEffect(id: "firstCover", in: coverAnimation, isSource: false)
-                        }
-                        .if(animated && index == 1) { view in
+                        })
+                        .if(animated && index == 1, transform: { view in
                             view
                                 .matchedGeometryEffect(id: "secondCover", in: coverAnimation, isSource: false)
-                        }
-                        .if(animated && index == 2) { view in
+                        })
+                        .if(animated && index == 2, transform: { view in
                             view
                                 .matchedGeometryEffect(id: "thirdCover", in: coverAnimation, isSource: false)
-                        }
-                        .if(animated && index == 3) { view in
+                        })
+                        .if(animated && index == 3, transform: { view in
                             view
                                 .matchedGeometryEffect(id: "fourthCover", in: coverAnimation, isSource: false)
-                        }
-                        .if(animated && index == 4) { view in
+                        })
+                        .if(animated && index == 4, transform: { view in
                             view
                                 .matchedGeometryEffect(id: "fifthCover", in: coverAnimation, isSource: false)
-                        }
+                        })
                         .frame(width: size, height: size)
                 } else {
                     Rectangle()

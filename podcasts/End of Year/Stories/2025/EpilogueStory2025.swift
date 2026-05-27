@@ -24,10 +24,10 @@ struct EpilogueStory2025: StoryView {
                     .padding(.bottom, 24)
                     .opacity(opacity)
                     .offset(y: offset)
-                    .if(isAnimating) {
+                    .if(isAnimating, transform: {
                         $0.animation(moveAnimation, value: offset)
                             .animation(opacityAnimation.delay(startDelay), value: opacity)
-                    }
+                    })
 
                 Text(L10n.playback2025EndStoryTitle)
                     .font(.system(size: 25, weight: .semibold))
@@ -35,20 +35,20 @@ struct EpilogueStory2025: StoryView {
                     .padding(.bottom, 16)
                     .opacity(opacity)
                     .offset(y: offset)
-                    .if(isAnimating) {
+                    .if(isAnimating, transform: {
                         $0.animation(moveAnimation.delay(assetDelay), value: offset)
                             .animation(opacityAnimation.delay(startDelay + assetDelay), value: opacity)
-                    }
+                    })
 
                 Text(L10n.playback2025EndStoryDescription)
                     .font(.system(size: 16, weight: .medium))
                     .multilineTextAlignment(.center)
                     .opacity(opacity)
                     .offset(y: offset)
-                    .if(isAnimating) {
+                    .if(isAnimating, transform: {
                         $0.animation(moveAnimation.delay(assetDelay + assetDelay), value: offset)
                         .animation(opacityAnimation.delay(startDelay + assetDelay + assetDelay), value: opacity)
-                    }
+                    })
             }
             .padding(.horizontal, 24)
             Spacer()

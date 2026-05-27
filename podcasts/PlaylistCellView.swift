@@ -84,7 +84,7 @@ struct PlaylistCellView: View {
             accesoryView()
         }
         .background(.clear)
-        .if(viewModel.displayType == .check) { view in
+        .if(viewModel.displayType == .check, transform: { view in
             view
                 .contentShape(Rectangle())
                 .onTapGesture {
@@ -98,7 +98,7 @@ struct PlaylistCellView: View {
                         Toast.show(L10n.playlistManualAddEpisodeFullPlaylistToast, theme: theme)
                     }
                 }
-        }
+        })
         .accessibilityElement(children: .combine)
         .opacity(shouldDisableRow ? 0.45 : 1.0)
         .onAppear {

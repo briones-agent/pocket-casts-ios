@@ -108,9 +108,9 @@ private struct LoginLandingContent: View {
                     .background(backgroundColor)
                 }
                 .padding(.top, headerHeight)
-                .if(coordinator.isOnboarding) {
+                .if(coordinator.isOnboarding, transform: {
                     $0.padding(.bottom)
-                }
+                })
                 .background(
                     GeometryReader { contentSizeProxy in
                         let contentHeight = contentSizeProxy.size.height

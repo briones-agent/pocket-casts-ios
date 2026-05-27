@@ -96,9 +96,9 @@ struct PressableLottieButton: View {
                 .foregroundColor(theme.primaryText01)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 20)
-                .if(UIAccessibility.buttonShapesEnabled) {
+                .if(UIAccessibility.buttonShapesEnabled, transform: {
                     $0.background(theme.primaryUi05)
-                }
+                })
                 .cornerRadius(12)
         }
         .buttonStyle(

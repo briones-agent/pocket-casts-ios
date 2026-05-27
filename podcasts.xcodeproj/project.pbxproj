@@ -461,6 +461,7 @@
 		9E2A72C35884B71C45856DFA /* VoiceBoostN.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DD11DB5830A48ACE6928B2 /* VoiceBoostN.c */; };
 		AA1B2C3D4E5F607100HEAT01 /* ListeningHeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2C3D4E5F607100HEAT03 /* ListeningHeatmapView.swift */; };
 		AA1B2C3D4E5F607100HEAT02 /* ListeningHeatmapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2C3D4E5F607100HEAT04 /* ListeningHeatmapViewModel.swift */; };
+		AE3F2334B4AD0C84C50F78B8 /* ExpoIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B4C6EEAB63A454F66A4966 /* ExpoIntegration.swift */; };
 		B7E0F1A52D4A1B5600123456 /* ProfileRefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E0F1A42D4A1B5600123456 /* ProfileRefreshButton.swift */; };
 		BD00CB2B24BD20CD00A10257 /* TimeStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD00CB2924BD20CD00A10257 /* TimeStepperCell.swift */; };
 		BD00CB2C24BD20CD00A10257 /* TimeStepperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD00CB2A24BD20CD00A10257 /* TimeStepperCell.xib */; };
@@ -1008,6 +1009,7 @@
 		BDFB53CC2362B9080001806E /* UpNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFB53CA2362B9080001806E /* UpNextViewController.xib */; };
 		BDFFC9AF2148A1460026D875 /* PCRoutePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFFC9AE2148A1460026D875 /* PCRoutePickerView.swift */; };
 		BDFFC9B12148E87E0026D875 /* VideoViewController+Seek.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFFC9B02148E87E0026D875 /* VideoViewController+Seek.swift */; };
+		C6A7DA2CAB7B88326DB34652 /* PocketCastsExpoArtifacts-release in Frameworks */ = {isa = PBXBuildFile; productRef = 46A15E49770B7620313BBE26 /* PocketCastsExpoArtifacts-release */; };
 		C701C25C2A8E82DC00AD9FAB /* PaidFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C701C25B2A8E82DC00AD9FAB /* PaidFeature.swift */; };
 		C701C25D2A8E82DC00AD9FAB /* PaidFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C701C25B2A8E82DC00AD9FAB /* PaidFeature.swift */; };
 		C713D4F42A04C90500A78468 /* ProfileDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C713D4EC2A04C90400A78468 /* ProfileDataViewModel.swift */; };
@@ -1609,6 +1611,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01B4C6EEAB63A454F66A4966 /* ExpoIntegration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = podcasts/ExpoIntegration.swift; sourceTree = SOURCE_ROOT; };
 		0C364CA62FAB8BAA00B46BDA /* MiniPlayerLongPressPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerLongPressPreviewViewController.swift; sourceTree = "<group>"; };
 		0CB804A52FB50B31007D0402 /* PlayerZoomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerZoomAnimator.swift; sourceTree = "<group>"; };
 		0CCC37A52FA3C30200BA79D1 /* SmartPlaylistRulesSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlaylistRulesSectionView.swift; sourceTree = "<group>"; };
@@ -2729,28 +2732,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3F26BBBE2F4FC23E0007119B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F26BBBE2F4FC23E0007119B /* Exceptions for "PocketCastsTests" folder in "PocketCastsTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				UnitTests.xctestplan,
 			);
 			target = 45ECEF7A27E910E300C65030 /* PocketCastsTests */;
 		};
-		3F26BC052F4FC3090007119B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F26BC052F4FC3090007119B /* Exceptions for "WidgetExtension" folder in "WidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
 			target = 4090974D25235DFA00CED68C /* WidgetExtension */;
 		};
-		3F26BC1B2F4FC3CA0007119B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F26BC1B2F4FC3CA0007119B /* Exceptions for "PodcastsIntents" folder in "PodcastsIntents" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
 			target = 403B5B0F21813FFA00821A54 /* PodcastsIntents */;
 		};
-		3F26BF582F4FC7C40007119B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F26BF582F4FC7C40007119B /* Exceptions for "Pocket Casts Watch App" folder in "Pocket Casts Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -2758,42 +2761,42 @@
 			);
 			target = BDD301631EFB9356004A9972 /* Pocket Casts Watch App */;
 		};
-		3F584F392F56842C005A3593 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F584F392F56842C005A3593 /* Exceptions for "Bookmarks" folder in "Pocket Casts Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Bookmarks+Analytics.swift",
 			);
 			target = BDD301631EFB9356004A9972 /* Pocket Casts Watch App */;
 		};
-		3F74793E2F5550D7004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F74793E2F5550D7004C7FF6 /* Exceptions for "Third Party Libraries" folder in "Pocket Casts Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				MNAVChapters/MNAVChapterReader.m,
 			);
 			target = BDD301631EFB9356004A9972 /* Pocket Casts Watch App */;
 		};
-		3F74793F2F5550D7004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F74793F2F5550D7004C7FF6 /* Exceptions for "Third Party Libraries" folder in "Pocket Casts App Clip" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				MNAVChapters/MNAVChapterReader.m,
 			);
 			target = F5D5F7782CEBE769001F492D /* Pocket Casts App Clip */;
 		};
-		3F74794E2F555197004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F74794E2F555197004C7FF6 /* Exceptions for "ABTest" folder in "Pocket Casts App Clip" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Variation+CustomTreatment.swift",
 			);
 			target = F5D5F7782CEBE769001F492D /* Pocket Casts App Clip */;
 		};
-		3F74795C2F55519F004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F74795C2F55519F004C7FF6 /* Exceptions for "Unlockable" folder in "Pocket Casts App Clip" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Unlockable+Bookmarks.swift",
 			);
 			target = F5D5F7782CEBE769001F492D /* Pocket Casts App Clip */;
 		};
-		3F7479EC2F5551AA004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F7479EC2F5551AA004C7FF6 /* Exceptions for "Analytics" folder in "Pocket Casts Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Analytics.swift,
@@ -2807,7 +2810,7 @@
 			);
 			target = BDD301631EFB9356004A9972 /* Pocket Casts Watch App */;
 		};
-		3F7479ED2F5551AA004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F7479ED2F5551AA004C7FF6 /* Exceptions for "Analytics" folder in "Pocket Casts App Clip" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Adapters/Crash Logging/CrashLoggingAdapter.swift",
@@ -2818,42 +2821,42 @@
 			);
 			target = F5D5F7782CEBE769001F492D /* Pocket Casts App Clip */;
 		};
-		3F747A502F5551D5004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F747A502F5551D5004C7FF6 /* Exceptions for "Utilities" folder in "WidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"SwiftUI/View+if.swift",
 			);
 			target = 4090974D25235DFA00CED68C /* WidgetExtension */;
 		};
-		3F747A512F5551D5004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3F747A512F5551D5004C7FF6 /* Exceptions for "Utilities" folder in "Pocket Casts App Clip" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"SwiftUI/View+UIView.swift",
 			);
 			target = F5D5F7782CEBE769001F492D /* Pocket Casts App Clip */;
 		};
-		3FDAD4EC2F46D75100CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3FDAD4EC2F46D75100CC3259 /* Exceptions for "NotificationContent" folder in "NotificationContent" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
 			target = BDEFBA131E6D3C2300B9024B /* NotificationContent */;
 		};
-		3FDAD4F12F46D75500CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3FDAD4F12F46D75500CC3259 /* Exceptions for "NotificationExtension" folder in "NotificationExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				NotificationService.swift,
 			);
 			target = BD3A210C1E6CFC2400F42241 /* NotificationExtension */;
 		};
-		3FDAD4FA2F46D77800CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3FDAD4FA2F46D77800CC3259 /* Exceptions for "PodcastsIntentsUI" folder in "PodcastsIntentsUI" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
 			target = 403B5B1821813FFA00821A54 /* PodcastsIntentsUI */;
 		};
-		3FDAD5072F46D78E00CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3FDAD5072F46D78E00CC3259 /* Exceptions for "Share Extension" folder in "Share Extension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				/Localized/MainInterface.storyboard,
@@ -2861,28 +2864,28 @@
 			);
 			target = 2F90990A2A4F88B00044FC55 /* Share Extension */;
 		};
-		3FDAD51A2F46D79100CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3FDAD51A2F46D79100CC3259 /* Exceptions for "Pocket Casts App Clip" folder in "Pocket Casts App Clip" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
 			target = F5D5F7782CEBE769001F492D /* Pocket Casts App Clip */;
 		};
-		3FDAD5A42F46D82200CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3FDAD5A42F46D82200CC3259 /* Exceptions for "Test Plans" folder in "Screenshot Automation" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				ScreenshotAutomation_iPad_Light_Interface.xctestplan,
 			);
 			target = 4694FA5F2799C80300E9CF70 /* Screenshot Automation */;
 		};
-		FF3248CC2FACCDB300226E58 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF3248CC2FACCDB300226E58 /* Exceptions for "Folders" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Create & Edit/Views/PodcastImageViewWrapper.swift",
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF32F3D72FAB82D100226E58 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF32F3D72FAB82D100226E58 /* Exceptions for "PlaylistMetadataLoader" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				EpisodeChangeType.swift,
@@ -2893,14 +2896,14 @@
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF6024A42FAB478F00EB3AD5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF6024A42FAB478F00EB3AD5 /* Exceptions for "Bookmarks" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Bookmarks+Analytics.swift",
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF6033FA2FAB4B0200EB3AD5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF6033FA2FAB4B0200EB3AD5 /* Exceptions for "Extensions" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"NetworkUtils+Helpers.swift",
@@ -2910,14 +2913,14 @@
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF6033FB2FAB4B8600EB3AD5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF6033FB2FAB4B8600EB3AD5 /* Exceptions for "Pocket Casts TV App" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Pocket-Casts-TV-App-Info.plist",
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF603BAA2FAB4F7100EB3AD5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF603BAA2FAB4F7100EB3AD5 /* Exceptions for "Lists" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				AllArchivedPlaceholder.swift,
@@ -2930,21 +2933,21 @@
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF60EC562F890CF400B409BC /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF60EC562F890CF400B409BC /* Exceptions for "Extensions" folder in "Pocket Casts App Clip" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"String+SentenceCase.swift",
 			);
 			target = F5D5F7782CEBE769001F492D /* Pocket Casts App Clip */;
 		};
-		FF60EC582F890D1F00B409BC /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF60EC582F890D1F00B409BC /* Exceptions for "Extensions" folder in "Pocket Casts Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"String+SentenceCase.swift",
 			);
 			target = BDD301631EFB9356004A9972 /* Pocket Casts Watch App */;
 		};
-		FF65058E2FAA96BF00C3662E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF65058E2FAA96BF00C3662E /* Exceptions for "Third Party Libraries" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				AEXML.swift,
@@ -2952,7 +2955,7 @@
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF65059E2FAA9CB800C3662E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF65059E2FAA9CB800C3662E /* Exceptions for "Unlockable" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Settings+Unlockable.swift",
@@ -2960,7 +2963,7 @@
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF8FF6A72FAA47450086A867 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF8FF6A72FAA47450086A867 /* Exceptions for "Analytics" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Analytics.swift,
@@ -2972,7 +2975,7 @@
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF8FFE482FAA4B170086A867 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF8FFE482FAA4B170086A867 /* Exceptions for "Utilities" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				CarPlayHelper.swift,
@@ -2983,7 +2986,7 @@
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FF8FFE672FAA8E650086A867 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FF8FFE672FAA8E650086A867 /* Exceptions for "Episode Info Coordinator" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				ShowInfoCoordinating.swift,
@@ -2991,7 +2994,7 @@
 			);
 			target = FF4B83AD2F981D8E001B8C56 /* Pocket Casts TV App */;
 		};
-		FFE437E72FBCB03800716EAA /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		FFE437E72FBCB03800716EAA /* Exceptions for "New Search" folder in "Pocket Casts TV App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Model/SearchHistoryModel.swift,
@@ -3001,54 +3004,567 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		371E0318452B7C751D0C5611 /* Fingerprint */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Fingerprint; sourceTree = "<group>"; };
-		3F26BB7B2F4FC23E0007119B /* PocketCastsTests */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F26BBBE2F4FC23E0007119B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = PocketCastsTests; sourceTree = "<group>"; };
-		3F26BBE52F4FC3090007119B /* WidgetExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F26BC052F4FC3090007119B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = WidgetExtension; sourceTree = "<group>"; };
-		3F26BC112F4FC3C90007119B /* PodcastsIntents */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F26BC1B2F4FC3CA0007119B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = PodcastsIntents; sourceTree = "<group>"; };
-		3F26BF082F4FC7C40007119B /* Pocket Casts Watch App */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F26BF582F4FC7C40007119B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Pocket Casts Watch App"; sourceTree = "<group>"; };
-		3F584D1D2F567E4A005A3593 /* Episode Info Coordinator */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (FF8FFE672FAA8E650086A867 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Episode Info Coordinator"; sourceTree = "<group>"; };
-		3F584D242F567E73005A3593 /* InAppPurchases */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = InAppPurchases; sourceTree = "<group>"; };
-		3F584D252F567EA6005A3593 /* Watch Communication */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Watch Communication"; sourceTree = "<group>"; };
-		3F584D262F567EE1005A3593 /* Lists */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (FF603BAA2FAB4F7100EB3AD5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Lists; sourceTree = "<group>"; };
-		3F584DED2F56811B005A3593 /* End of Year */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "End of Year"; sourceTree = "<group>"; };
-		3F584E3E2F568131005A3593 /* Whats New */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Whats New"; sourceTree = "<group>"; };
-		3F584E492F568154005A3593 /* Theme */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Theme; sourceTree = "<group>"; };
-		3F584E4D2F5682BA005A3593 /* Google Cast */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Google Cast"; sourceTree = "<group>"; };
-		3F584E4F2F568314005A3593 /* CarPlay */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CarPlay; sourceTree = "<group>"; };
-		3F584E7B2F5683A8005A3593 /* Sharing */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sharing; sourceTree = "<group>"; };
-		3F584E952F5683B2005A3593 /* Up Next History */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Up Next History"; sourceTree = "<group>"; };
-		3F584EC02F5683D9005A3593 /* Common SwiftUI */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Common SwiftUI"; sourceTree = "<group>"; };
-		3F584F202F56842C005A3593 /* Bookmarks */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F584F392F56842C005A3593 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, FF6024A42FAB478F00EB3AD5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Bookmarks; sourceTree = "<group>"; };
-		3F584F3E2F568437005A3593 /* Ratings */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Ratings; sourceTree = "<group>"; };
-		3F584FA42F568449005A3593 /* Onboarding */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Onboarding; sourceTree = "<group>"; };
-		3F584FEF2F5685CE005A3593 /* Episode Cells */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Episode Cells"; sourceTree = "<group>"; };
-		3F584FF02F5685EB005A3593 /* Sonos */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sonos; sourceTree = "<group>"; };
-		3F584FF12F568604005A3593 /* Main */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Main; sourceTree = "<group>"; };
-		3F584FF22F568621005A3593 /* Syncing */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Syncing; sourceTree = "<group>"; };
-		3F584FF32F56869B005A3593 /* Folders */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (FF3248CC2FACCDB300226E58 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Folders; sourceTree = "<group>"; };
-		3F584FFA2F5687F9005A3593 /* Common Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Common Components"; sourceTree = "<group>"; };
-		3F5850042F5689C2005A3593 /* Podcasts */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Podcasts; sourceTree = "<group>"; };
-		3F585D252F568CF8005A3593 /* Episode */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Episode; sourceTree = "<group>"; };
-		3F585D302F568D28005A3593 /* PlaylistMetadataLoader */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (FF32F3D72FAB82D100226E58 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = PlaylistMetadataLoader; sourceTree = "<group>"; };
-		3F585D3A2F568D9D005A3593 /* Categories */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Categories; sourceTree = "<group>"; };
-		3F585D5B2F568DDC005A3593 /* New Search */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (FFE437E72FBCB03800716EAA /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "New Search"; sourceTree = "<group>"; };
-		3F7463D02F55488A004C7FF6 /* config */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = config; sourceTree = "<group>"; };
-		3F74793C2F5550AD004C7FF6 /* Third Party Libraries */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F74793E2F5550D7004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 3F74793F2F5550D7004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, FF65058E2FAA96BF00C3662E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Third Party Libraries"; sourceTree = "<group>"; };
-		3F7479402F55510B004C7FF6 /* Utilities */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F747A502F5551D5004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 3F747A512F5551D5004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, FF8FFE482FAA4B170086A867 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Utilities; sourceTree = "<group>"; };
-		3F7479452F555197004C7FF6 /* ABTest */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F74794E2F555197004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ABTest; sourceTree = "<group>"; };
-		3F7479522F55519F004C7FF6 /* Unlockable */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F74795C2F55519F004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, FF65059E2FAA9CB800C3662E /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Unlockable; sourceTree = "<group>"; };
-		3F7479C32F5551AA004C7FF6 /* Analytics */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3F7479EC2F5551AA004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 3F7479ED2F5551AA004C7FF6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, FF8FF6A72FAA47450086A867 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Analytics; sourceTree = "<group>"; };
-		3F747A532F5553A1004C7FF6 /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (FF60EC582F890D1F00B409BC /* PBXFileSystemSynchronizedBuildFileExceptionSet */, FF60EC562F890CF400B409BC /* PBXFileSystemSynchronizedBuildFileExceptionSet */, FF6033FA2FAB4B0200EB3AD5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
-		3F747A542F5598A2004C7FF6 /* Playback */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Playback; sourceTree = "<group>"; };
-		3F747A5A2F559925004C7FF6 /* Notifications */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Notifications; sourceTree = "<group>"; };
-		3FDAD4E72F46D75100CC3259 /* NotificationContent */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3FDAD4EC2F46D75100CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = NotificationContent; sourceTree = "<group>"; };
-		3FDAD4EF2F46D75400CC3259 /* NotificationExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3FDAD4F12F46D75500CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = NotificationExtension; sourceTree = "<group>"; };
-		3FDAD4F62F46D77800CC3259 /* PodcastsIntentsUI */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3FDAD4FA2F46D77800CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = PodcastsIntentsUI; sourceTree = "<group>"; };
-		3FDAD4FC2F46D78600CC3259 /* Screenshot Automation Watch */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Screenshot Automation Watch"; sourceTree = "<group>"; };
-		3FDAD5042F46D78E00CC3259 /* Share Extension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3FDAD5072F46D78E00CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Share Extension"; sourceTree = "<group>"; };
-		3FDAD5122F46D79100CC3259 /* Pocket Casts App Clip */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3FDAD51A2F46D79100CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Pocket Casts App Clip"; sourceTree = "<group>"; };
-		3FDAD5A22F46D82100CC3259 /* Test Plans */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3FDAD5A42F46D82200CC3259 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Test Plans"; sourceTree = "<group>"; };
-		FF4B83AF2F981D8E001B8C56 /* Pocket Casts TV App */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (FF6033FB2FAB4B8600EB3AD5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Pocket Casts TV App"; sourceTree = "<group>"; };
+		371E0318452B7C751D0C5611 /* Fingerprint */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Fingerprint;
+			sourceTree = "<group>";
+		};
+		3F26BB7B2F4FC23E0007119B /* PocketCastsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F26BBBE2F4FC23E0007119B /* Exceptions for "PocketCastsTests" folder in "PocketCastsTests" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = PocketCastsTests;
+			sourceTree = "<group>";
+		};
+		3F26BBE52F4FC3090007119B /* WidgetExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F26BC052F4FC3090007119B /* Exceptions for "WidgetExtension" folder in "WidgetExtension" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = WidgetExtension;
+			sourceTree = "<group>";
+		};
+		3F26BC112F4FC3C90007119B /* PodcastsIntents */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F26BC1B2F4FC3CA0007119B /* Exceptions for "PodcastsIntents" folder in "PodcastsIntents" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = PodcastsIntents;
+			sourceTree = "<group>";
+		};
+		3F26BF082F4FC7C40007119B /* Pocket Casts Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F26BF582F4FC7C40007119B /* Exceptions for "Pocket Casts Watch App" folder in "Pocket Casts Watch App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Pocket Casts Watch App";
+			sourceTree = "<group>";
+		};
+		3F584D1D2F567E4A005A3593 /* Episode Info Coordinator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF8FFE672FAA8E650086A867 /* Exceptions for "Episode Info Coordinator" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Episode Info Coordinator";
+			sourceTree = "<group>";
+		};
+		3F584D242F567E73005A3593 /* InAppPurchases */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = InAppPurchases;
+			sourceTree = "<group>";
+		};
+		3F584D252F567EA6005A3593 /* Watch Communication */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Watch Communication";
+			sourceTree = "<group>";
+		};
+		3F584D262F567EE1005A3593 /* Lists */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF603BAA2FAB4F7100EB3AD5 /* Exceptions for "Lists" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		3F584DED2F56811B005A3593 /* End of Year */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "End of Year";
+			sourceTree = "<group>";
+		};
+		3F584E3E2F568131005A3593 /* Whats New */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Whats New";
+			sourceTree = "<group>";
+		};
+		3F584E492F568154005A3593 /* Theme */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		3F584E4D2F5682BA005A3593 /* Google Cast */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Google Cast";
+			sourceTree = "<group>";
+		};
+		3F584E4F2F568314005A3593 /* CarPlay */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = CarPlay;
+			sourceTree = "<group>";
+		};
+		3F584E7B2F5683A8005A3593 /* Sharing */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+		3F584E952F5683B2005A3593 /* Up Next History */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Up Next History";
+			sourceTree = "<group>";
+		};
+		3F584EC02F5683D9005A3593 /* Common SwiftUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Common SwiftUI";
+			sourceTree = "<group>";
+		};
+		3F584F202F56842C005A3593 /* Bookmarks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F584F392F56842C005A3593 /* Exceptions for "Bookmarks" folder in "Pocket Casts Watch App" target */,
+				FF6024A42FAB478F00EB3AD5 /* Exceptions for "Bookmarks" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		3F584F3E2F568437005A3593 /* Ratings */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Ratings;
+			sourceTree = "<group>";
+		};
+		3F584FA42F568449005A3593 /* Onboarding */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3F584FEF2F5685CE005A3593 /* Episode Cells */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Episode Cells";
+			sourceTree = "<group>";
+		};
+		3F584FF02F5685EB005A3593 /* Sonos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Sonos;
+			sourceTree = "<group>";
+		};
+		3F584FF12F568604005A3593 /* Main */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3F584FF22F568621005A3593 /* Syncing */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Syncing;
+			sourceTree = "<group>";
+		};
+		3F584FF32F56869B005A3593 /* Folders */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF3248CC2FACCDB300226E58 /* Exceptions for "Folders" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Folders;
+			sourceTree = "<group>";
+		};
+		3F584FFA2F5687F9005A3593 /* Common Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Common Components";
+			sourceTree = "<group>";
+		};
+		3F5850042F5689C2005A3593 /* Podcasts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Podcasts;
+			sourceTree = "<group>";
+		};
+		3F585D252F568CF8005A3593 /* Episode */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Episode;
+			sourceTree = "<group>";
+		};
+		3F585D302F568D28005A3593 /* PlaylistMetadataLoader */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF32F3D72FAB82D100226E58 /* Exceptions for "PlaylistMetadataLoader" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = PlaylistMetadataLoader;
+			sourceTree = "<group>";
+		};
+		3F585D3A2F568D9D005A3593 /* Categories */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3F585D5B2F568DDC005A3593 /* New Search */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FFE437E72FBCB03800716EAA /* Exceptions for "New Search" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "New Search";
+			sourceTree = "<group>";
+		};
+		3F7463D02F55488A004C7FF6 /* config */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		3F74793C2F5550AD004C7FF6 /* Third Party Libraries */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F74793E2F5550D7004C7FF6 /* Exceptions for "Third Party Libraries" folder in "Pocket Casts Watch App" target */,
+				3F74793F2F5550D7004C7FF6 /* Exceptions for "Third Party Libraries" folder in "Pocket Casts App Clip" target */,
+				FF65058E2FAA96BF00C3662E /* Exceptions for "Third Party Libraries" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Third Party Libraries";
+			sourceTree = "<group>";
+		};
+		3F7479402F55510B004C7FF6 /* Utilities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F747A502F5551D5004C7FF6 /* Exceptions for "Utilities" folder in "WidgetExtension" target */,
+				3F747A512F5551D5004C7FF6 /* Exceptions for "Utilities" folder in "Pocket Casts App Clip" target */,
+				FF8FFE482FAA4B170086A867 /* Exceptions for "Utilities" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3F7479452F555197004C7FF6 /* ABTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F74794E2F555197004C7FF6 /* Exceptions for "ABTest" folder in "Pocket Casts App Clip" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = ABTest;
+			sourceTree = "<group>";
+		};
+		3F7479522F55519F004C7FF6 /* Unlockable */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F74795C2F55519F004C7FF6 /* Exceptions for "Unlockable" folder in "Pocket Casts App Clip" target */,
+				FF65059E2FAA9CB800C3662E /* Exceptions for "Unlockable" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Unlockable;
+			sourceTree = "<group>";
+		};
+		3F7479C32F5551AA004C7FF6 /* Analytics */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F7479EC2F5551AA004C7FF6 /* Exceptions for "Analytics" folder in "Pocket Casts Watch App" target */,
+				3F7479ED2F5551AA004C7FF6 /* Exceptions for "Analytics" folder in "Pocket Casts App Clip" target */,
+				FF8FF6A72FAA47450086A867 /* Exceptions for "Analytics" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		3F747A532F5553A1004C7FF6 /* Extensions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF60EC582F890D1F00B409BC /* Exceptions for "Extensions" folder in "Pocket Casts Watch App" target */,
+				FF60EC562F890CF400B409BC /* Exceptions for "Extensions" folder in "Pocket Casts App Clip" target */,
+				FF6033FA2FAB4B0200EB3AD5 /* Exceptions for "Extensions" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3F747A542F5598A2004C7FF6 /* Playback */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Playback;
+			sourceTree = "<group>";
+		};
+		3F747A5A2F559925004C7FF6 /* Notifications */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		3FDAD4E72F46D75100CC3259 /* NotificationContent */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FDAD4EC2F46D75100CC3259 /* Exceptions for "NotificationContent" folder in "NotificationContent" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = NotificationContent;
+			sourceTree = "<group>";
+		};
+		3FDAD4EF2F46D75400CC3259 /* NotificationExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FDAD4F12F46D75500CC3259 /* Exceptions for "NotificationExtension" folder in "NotificationExtension" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = NotificationExtension;
+			sourceTree = "<group>";
+		};
+		3FDAD4F62F46D77800CC3259 /* PodcastsIntentsUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FDAD4FA2F46D77800CC3259 /* Exceptions for "PodcastsIntentsUI" folder in "PodcastsIntentsUI" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = PodcastsIntentsUI;
+			sourceTree = "<group>";
+		};
+		3FDAD4FC2F46D78600CC3259 /* Screenshot Automation Watch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Screenshot Automation Watch";
+			sourceTree = "<group>";
+		};
+		3FDAD5042F46D78E00CC3259 /* Share Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FDAD5072F46D78E00CC3259 /* Exceptions for "Share Extension" folder in "Share Extension" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Share Extension";
+			sourceTree = "<group>";
+		};
+		3FDAD5122F46D79100CC3259 /* Pocket Casts App Clip */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FDAD51A2F46D79100CC3259 /* Exceptions for "Pocket Casts App Clip" folder in "Pocket Casts App Clip" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Pocket Casts App Clip";
+			sourceTree = "<group>";
+		};
+		3FDAD5A22F46D82100CC3259 /* Test Plans */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FDAD5A42F46D82200CC3259 /* Exceptions for "Test Plans" folder in "Screenshot Automation" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Test Plans";
+			sourceTree = "<group>";
+		};
+		FF4B83AF2F981D8E001B8C56 /* Pocket Casts TV App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF6033FB2FAB4B8600EB3AD5 /* Exceptions for "Pocket Casts TV App" folder in "Pocket Casts TV App" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = "Pocket Casts TV App";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3129,6 +3645,7 @@
 				46C22EE028F73D9A00F4173B /* AuthenticationServices.framework in Frameworks */,
 				BD11C41D2524741C00E308E6 /* CarPlay.framework in Frameworks */,
 				3FC668C02F7CD3440072EBA8 /* XcodeTarget_podcasts in Frameworks */,
+				C6A7DA2CAB7B88326DB34652 /* PocketCastsExpoArtifacts-release in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3207,6 +3724,14 @@
 				10756F812C57CFF00089D34F /* Screens */,
 			);
 			name = Scheet;
+			sourceTree = "<group>";
+		};
+		24734D08BF8A9DAD9415D914 /* podcasts */ = {
+			isa = PBXGroup;
+			children = (
+				01B4C6EEAB63A454F66A4966 /* ExpoIntegration.swift */,
+			);
+			name = podcasts;
 			sourceTree = "<group>";
 		};
 		4006E30D23A35F4000174DEB /* Collection List */ = {
@@ -4690,6 +5215,7 @@
 				FF4B83AF2F981D8E001B8C56 /* Pocket Casts TV App */,
 				BDBD53EE17019B2A0048C8C5 /* Frameworks */,
 				BDBD53ED17019B2A0048C8C5 /* Products */,
+				24734D08BF8A9DAD9415D914 /* podcasts */,
 			);
 			sourceTree = "<group>";
 		};
@@ -5890,6 +6416,7 @@
 			name = podcasts;
 			packageProductDependencies = (
 				3FC668BF2F7CD3440072EBA8 /* XcodeTarget_podcasts */,
+				46A15E49770B7620313BBE26 /* PocketCastsExpoArtifacts-release */,
 			);
 			productName = podcasts;
 			productReference = BDBD53EC17019B2A0048C8C5 /* podcasts.app */;
@@ -6103,6 +6630,7 @@
 			);
 			mainGroup = BDBD53E317019B290048C8C5;
 			packageReferences = (
+				49FD1004F3428F2D81D01280 /* XCLocalSwiftPackageReference "PocketCastsExpoArtifacts-release" */,
 			);
 			preferredProjectObjectVersion = 51;
 			productRefGroup = BDBD53ED17019B2A0048C8C5 /* Products */;
@@ -7448,6 +7976,7 @@
 				8B1B782B2BC7104000DC3373 /* SleepTimerManager.swift in Sources */,
 				FF54BCA92C5A2F3900A342E5 /* TranscriptFormat.swift in Sources */,
 				9E2A72C35884B71C45856DFA /* VoiceBoostN.c in Sources */,
+				AE3F2334B4AD0C84C50F78B8 /* ExpoIntegration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8128,7 +8657,7 @@
 				);
 				GOOGLE_SIGN_IN_SECRETS_PATH = "$(HOME)/.configure/pocketcasts-ios/secrets/GoogleSignIn.txt";
 				INFOPLIST_FILE = "podcasts/podcasts-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9222,7 +9751,7 @@
 				);
 				GOOGLE_SIGN_IN_SECRETS_PATH = "$(HOME)/.configure/pocketcasts-ios/secrets/GoogleSignIn.txt";
 				INFOPLIST_FILE = "podcasts/podcasts-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9510,7 +10039,7 @@
 				);
 				GOOGLE_SIGN_IN_SECRETS_PATH = "$(HOME)/.configure/pocketcasts-ios/secrets/GoogleSignIn.txt";
 				INFOPLIST_FILE = "podcasts/podcasts-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9535,7 +10064,7 @@
 				);
 				GOOGLE_SIGN_IN_SECRETS_PATH = "$(HOME)/.configure/pocketcasts-ios/secrets/GoogleSignIn.txt";
 				INFOPLIST_FILE = "podcasts/podcasts-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -10261,6 +10790,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		49FD1004F3428F2D81D01280 /* XCLocalSwiftPackageReference "PocketCastsExpoArtifacts-release" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "podcasts/expo-app/artifacts/PocketCastsExpoArtifacts-release";
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		3FC668BF2F7CD3440072EBA8 /* XcodeTarget_podcasts */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -10289,6 +10825,11 @@
 		3FC668CB2F7CD5A20072EBA8 /* XcodeTarget_Pocket Casts App Clip */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "XcodeTarget_Pocket Casts App Clip";
+		};
+		46A15E49770B7620313BBE26 /* PocketCastsExpoArtifacts-release */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49FD1004F3428F2D81D01280 /* XCLocalSwiftPackageReference "PocketCastsExpoArtifacts-release" */;
+			productName = "PocketCastsExpoArtifacts-release";
 		};
 		FF49232C2F9BCC9500E68E0C /* XcodeTarget_Pocket Casts TV App */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -41,3 +41,7 @@ artifacts/*
 # Claude Code ignored personal preferences
 .claude/settings.local.json
 .claude/worktrees
+
+# expo-brownfield wiring helper — internal automation, not for users
+/integrate_expo.rb
+build/

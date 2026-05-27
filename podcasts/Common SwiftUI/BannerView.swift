@@ -114,12 +114,12 @@ struct BannerView: View {
         .background(backgroundColor)
         .cornerRadius(8)
         .background(.clear)
-        .if(edgeInsets != nil) { content in
+        .if(edgeInsets != nil, transform: { content in
             content.padding(edgeInsets ?? EdgeInsets())
-        }
-        .if(edgeInsets == nil) { content in
+        })
+        .if(edgeInsets == nil, transform: { content in
             content.padding()
-        }
+        })
     }
 }
 
