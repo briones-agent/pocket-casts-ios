@@ -1,3 +1,20 @@
+# Pocket Casts iOS + React Native
+
+This is an experimental fork of the official [Pocket Casts iOS](https://github.com/Automattic/pocket-casts-ios) with the sole purpose of testing brownfield support for Expo and React Native in large native-first codebases. Its commits serve as a reference for anyone interested in integrating React Native into an existing iOS app, especially those that don't want to refactor the whole project structure to accommodate React Native.
+
+This project uses Expo's brownfield isolated approach, plus the [`ExpoAppDelegateSubscriberManager`](https://docs.expo.dev/brownfield/overview/) lifecycle pipeline — the host AppDelegate forwards every `UIApplicationDelegate` event into the embedded Expo runtime, and a `PocketCastsLifecycleSubscriber` (a `BaseExpoAppDelegateSubscriber`) renders the live event stream into a React Native screen.
+
+## Integration steps
+
+Check commits for detailed steps, full instructions can be found in the [expo-brownfield documentation](https://docs.expo.dev/brownfield/overview/).
+
+1. **Create the Expo app**: Run `npx create-expo-app expo-app --template default@canary-sdk-56` to set up a new Expo app.
+2. **Install expo-brownfield**: Add expo-brownfield to your project `npx expo install expo-brownfield` and generate a Swift Package.
+3. **Add React Native view**: Integrate the Expo app Swift Package into the existing iOS app.
+
+<details>
+<summary>Pocket Casts</summary>
+
 <p align="center">
     <!-- Pocket Casts brand image -->
     <img src="https://user-images.githubusercontent.com/308331/194037473-41ad7eba-8602-4be5-be73-49e3c0c48c12.svg#gh-light-mode-only" />
@@ -95,3 +112,5 @@ These exports can also be imported to the app, replacing the database and settin
 All [releases](https://github.com/Automattic/pocket-casts-ios/releases) include dSYMs inside of the `xcarchive` file.
 
 These can be used along with the [MacSymbolicator](https://github.com/inket/MacSymbolicator) app to symbolicate any crash logs.
+
+</details>
